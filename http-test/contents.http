@@ -1,3 +1,5 @@
-GET http://localhost:8080/contents?category=it
+### 카테고리 허용하지 않을경우
+GET http://localhost:8080/categories/game/contents?from=20190202111111
 
-###
+### 검색조건이 맞지 않을경우
+GET http://localhost:8080/categories/it/contents?from=20110202111111
